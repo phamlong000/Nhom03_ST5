@@ -1,0 +1,249 @@
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.banglichsumuahang {
+    margin-top: 120px;
+}
+
+.banglichsumuahang {
+    width: 1000px;
+    background-color: white;
+    border-collapse: collapse;
+    border: solid palevioletred 1px;
+    border-radius: 3px 3px;
+}
+
+.ngaythang {
+    height: 50px;
+    background-color: silver;
+}
+
+.giatiensanpham {
+    color: green;
+    text-decoration: none;
+}
+
+.dinhdangtimkiem {
+    height: 50px;
+    border: solid palevioletred 1px;
+}
+
+.hanglichsudonhang {
+    background-color: palevioletred;
+}
+
+.dinhdanghang {
+    border-bottom: solid palevioletred 1px;
+}
+
+.dinhdangimage {
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #ecf0f1;
+    color: #666;
+    width: 1200px;
+}
+
+.header {
+    background-color: #006977;
+    padding: 2rem 0;
+    width: 1200px;
+    margin-top: auto;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+    .header a h1 {
+        color:  #1eeaf1;
+    }
+
+.menu > li, menu > a {
+    display: inline-block;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 1.5rem;
+}
+
+    .menu a:hover {
+        background-color: #f34949;
+        color: #fff;
+    }
+
+.menu2 {
+    position: absolute;
+    background-color: #2c3e50;
+    width: 200px;
+    left: 0;
+    display: none;
+}
+
+.menu li:hover > .menu2 {
+    display: block;
+}
+
+.buy-now {
+    border-radius: 15%;
+    height: 80px;
+    width: 40px;
+    background-color: #0c0769;
+    color: #bbbbbb;
+}
+
+.content {
+    padding-top: 120px;
+}
+
+    .content h2 {
+        color: #93d4ff;
+    }
+
+.danhsach {
+    width: 1200px;
+    clear: both;
+}
+
+    .danhsach li {
+        width: 295px;
+        height: 100%;
+        display: inline-block;
+    }
+
+    .danhsach img {
+        width: 300px;
+        height: auto;
+        padding: 10px;
+        transition-duration: .3s;
+        transition-property: transform;
+        transition-timing-function: ease-out;
+    }
+
+.giagoc {
+    stroke: #666;
+}
+
+.danhsach h3 {
+    color: #333;
+}
+
+.danhsach strong {
+    color: #d0021c;
+    font-size: 18px;
+}
+
+.danhsach small {
+    color: #eb5757;
+    background: #fff0e9;
+    border-radius: 4px;
+    padding: 1px 2px 2px 2px;
+    margin-left: 7px;
+    font-size: 14px;
+}
+
+.danhsach img:hover {
+    transform: translateX(20px);
+}
+
+.danhsach li:hover > h3 {
+    color: #288ad6;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 300px;
+    padding: 0 15px;
+}
+
+    .footer-col h4 {
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+        font-weight: 500;
+        position: relative;
+    }
+
+        .footer-col h4::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color: #e91e63;
+            height: 2px;
+            box-sizing: border-box;
+            width: 50px;
+        }
+
+    .footer-col ul li a {
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+        .footer-col ul li a:hover {
+            color: #ffffff;
+            padding-left: 8px;
+        }
+
+    .footer-col .link a {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgba((255), 255, 255, 0.2);
+        margin: 0 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #ffffff;
+        transition: all 0.3s ease;
+    }
+
+        .footer-col .link a:hover {
+            color: #24262b;
+            background-color: #ffffff;
+        }

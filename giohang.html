@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title></title>
+    <link href="giohang.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="khung">
+        <div class="khung1">
+            <div class="khung2">
+                <div class="header">
+                    <a href="index.html"><h1 class="logo">Mỹ phẩm xách tay</h1></a>
+            
+                    <ul class="menu">
+                        <li><a href="index.html">Trang Chủ</a></li>
+                        <li>
+                            <a href="#">
+                                Danh mục sản phẩm
+                                <img src="images/anh/icon down.png" alt="" class="icon">
+                            </a>
+                            <ul class="menu2">
+                                <li><a href="#">Trang điểm môi</a></li>
+                                <li><a href="#">nước hoa</a></li>
+                                <li><a href="#">Trang điểm mặt</a></li>
+                                <li><a href="#">Chăm sóc móng</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="lichsumuahang.html">Lịch sử đơn hàng </a></li>
+                        <li><a href="login.html">Đăng nhập</a></li>
+                        <li><a href="register.html">Đăng ký</a></li>
+                        <li><a href="giohang.html">Giỏ hàng</a></li>
+                    </ul>
+                </div>
+                <div id="bangthongbao">
+                    <br />
+                    <img src="images/anh/Capture.jpg" class="anh" />
+                    <h2>Thanh toán thành công</h2>
+                    <p>Tổng: <del class="d2">61.142.000</del><del class="d1">đ</del></p>
+                    <p>Cảm ơn sự ủng hộ của bạn, chúc bạn mua sắm vui vẻ!</p>
+                    <del onclick="thanhtoan()"><input type="button" value="TRỞ LẠI" class="trolai" /></del>
+                </div>
+                <table class="bang">
+                    <tr>
+                        <th>Hình</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Đơn giá</th>
+                        <th>Số lượng</th>
+                        <th>Thành tiền</th>
+                        <th>Xóa</th>
+                    </tr>
+
+                    <tr>
+                        <td class="hinh">
+                            <img src="bammongtay.jpg" class="image" />
+                        </td>
+                        <td class="ten">
+                            <p>Bấm Móng Tay KAI Cỡ Trung</p>
+                        </td>
+                        <td class="giatien">
+                            <p><del class="d2">119.000</del><del class="d1">đ</del></p>
+                        </td>
+                        <td class="soluong">
+                            <input type="number" value="3" class="khungsoluong" />
+                        </td>
+                        <td class="thanhtien">
+                            <p><del class="d2">357.000</del><del class="d1">đ</del></p>
+                        </td>
+                        <td class="xoa">
+                            <input type="button" value="X" class="khungxoa" />
+                        </td>
+                    </tr>
+
+                   
+                </table>
+                <br />
+                <br />
+                <table class="bang2">
+                    <tr>
+                        <th class="b2d1c1">
+                            <p>Tổng thanh toán(1 Sản phẩm): <del class="d2">357.000</del><del class="d1">đ</del></p>
+                        </th>
+                        <td class="b2d1c2">
+                            <p onclick="thanhtoan()"><input type="button" value="Thanh Toán" class="khungthanhtoan" /></p>
+                        </td>
+                    </tr>
+                </table>
+                <footer class="footer">
+                    <div class="container">
+                        <div class="row">
+            
+                            <div class="footer-col">
+                                <h4>Thông tin công ty</h4>
+                                <ul>
+                                    <li><a href="">Chính sách công ty</a></li>
+                                    <li><a href="">Hệ thống cửa hàng</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h4>Hỗ trợ</h4>
+                                <ul>
+                                    <li><a href="">Hot Line:0909 456 789</a></li>
+                                    <li><a href="">Giao hàng</a></li>
+                                    <li><a href="">Trả hàng</a></li>
+                                    <li><a href="">Đặt Hàng</a></li>
+                                    <li><a href="">Hình thức thanh toán</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h4>Online</h4>
+                                <ul>
+                                    <li><a href="">Trang điểm môi</a></li>
+                                    <li><a href="">nước hoa</a></li>
+                                    <li><a href="">Trang điểm mặt</a></li>
+                                    <li><a href="">Chăm sóc móng</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h4>Theo dõi chúng tôi</h4>
+                                <div class="link">
+                                    <p><a href="">facebook</a></p>
+                                    <p><a href="">zalo</a></p>
+                                    <p><a href="">Twitter</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <script>
+                    function thanhtoan() {
+                        var a = document.getElementById("bangthongbao");
+                        if (a.style.display == "block")
+                            a.style.display = "none";
+                        else
+                            a.style.display = "block";
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
